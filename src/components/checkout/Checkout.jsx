@@ -21,7 +21,6 @@ const Checkout = () => {
                const { id, title, image, price, rating } = item;
                return (
                   <CheckoutProduct
-                     key={id}
                      id={id}
                      title={title}
                      image={image}
