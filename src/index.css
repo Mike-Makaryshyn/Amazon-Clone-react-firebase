@@ -16,7 +16,10 @@ body {
    -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
+.star {
+   color: #ffa41c;
+}
+
+button {
+   cursor: pointer;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillStar } from "react-icons/ai";
 import { useStateValue } from "../../StateProvider";
 import "./Product.css";
 
@@ -30,7 +31,9 @@ const Product = ({ id, title, image, price, rating }) => {
                {Array(rating)
                   .fill()
                   .map((_, i) => (
-                     <p key={i}>⭐</p>
+                     <p className="star" key={i}>
+                        <AiFillStar />
+                     </p>
                   ))}
             </div>
          </div>
