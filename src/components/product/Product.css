@@ -9,6 +9,12 @@
    min-width: 100px;
    background-color: #fff;
    z-index: 1;
+   transition: all 0.3s ease;
+}
+.product:hover {
+   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .product > img {
@@ -23,6 +29,16 @@
    border: 1px solid;
    margin-top: 10px;
    border-color: #a88734 #9c7e31 #846a29;
+   transition: all 0.3s ease;
+}
+
+.product > button:hover {
+   color: rgb(216, 216, 216);
+   background-color: darkolivegreen;
+   transform: scale(1.1);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .product__price {

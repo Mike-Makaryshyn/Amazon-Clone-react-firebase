@@ -4,6 +4,7 @@ import CheckoutProduct from "../checkout-product/CheckoutProduct";
 import Subtotal from "../subtoal/Subtotal";
 import "./Checkout.css";
 
+
 const Checkout = () => {
    const [{ basket, user }, dispatch] = useStateValue();
 

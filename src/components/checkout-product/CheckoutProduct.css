@@ -13,6 +13,15 @@
    margin-top: 10px;
    background-color: #a88734 #9c7e31 #846a29;
    color: #111;
+   transition: all 0.3s ease;
+}
+.checkout-product__info > button:hover {
+   color: rgb(216, 216, 216);
+   background-color: #bd4490;
+   transform: scale(1.1);
+   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+      rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+      rgba(240, 46, 170, 0.05) 0px 25px;
 }
 
 .checkout-product__image {
@@ -23,7 +32,6 @@
 
 .checkout-product__rating {
    display: flex;
-
 }
 
 .checkout-product__title {
