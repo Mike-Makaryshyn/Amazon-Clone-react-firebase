@@ -68,3 +68,15 @@
 .header__basket-count {
    margin: 0px 20px 0px 5px;
 }
+
+@media screen and (max-width: 500px) {
+   .header {
+      flex-wrap: wrap;
+      height: auto;
+      padding: 20px 10px;
+   }
+   .header__option-basket {
+      position: absolute;
+      right: 0;
+   }
+}

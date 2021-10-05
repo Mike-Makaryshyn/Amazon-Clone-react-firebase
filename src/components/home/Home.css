@@ -19,7 +19,16 @@
 }
 
 @media screen and (max-width: 1500px) {
+   .home__container {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+   }
    .home__row {
       flex-wrap: wrap;
    }
+   .home {
+      min-width: 200px;
+   }
 }
+
