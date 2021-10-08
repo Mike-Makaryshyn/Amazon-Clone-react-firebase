@@ -1,9 +1,12 @@
-General:
 
--"npm install" to download all dependencies and "npm start" to start server in your browser.
--in folder - "functions" (that's where backend is located) write "npm install" to download all dependencies and "firebase emulators:start" to start server.  
+1. "npm install" to download all dependencies and "npm start" to start server in your browser. (in main folder)
+2. "npm install" to download all dependencies and "firebase emulators:start" to start server. (in folder "functions")
 
-Full stack app (authentication, store data in database with firebase and payment realisation with stripe + axios) has developed.
+This is a full stack app Node.js React.js Firebase, Stripe:
+- Authentication, store data in database made  with Firebase.
+- Payment realisation made with Stripe.
+- HTTP requests with axios.
+
 Deployed with firebase:
 
 https://clone-81844.web.app/
