@@ -32,3 +32,26 @@
    margin-left: 10px;
    position: relative;
 }
+
+.payment__details > form {
+   max-width: 400px;
+}
+
+.payment__details > h3 {
+   padding-bottom: 20px;
+}
+
+.payment__details > form > div > button {
+   background: #000000;
+   border-radius: 5px;
+   width: 50%;
+   height: 30px;
+   border: 1px solid;
+   margin-top: 10px;
+   color: #fff;
+   transition: all 0.3s;
+}
+.payment__details > form > div > button:hover {
+   background: #ffe477;
+   color: #000;
+}

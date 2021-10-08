@@ -1,0 +1,17 @@
+.orders {
+   padding: 20px 80px;
+}
+
+.orders > h1 {
+   margin: 30px 0;
+}
+
+@media screen and (max-width: 700px) {
+   .orders {
+      padding: 0;
+   }
+
+   .orders > h1 {
+      margin: 10px;
+   }
+}

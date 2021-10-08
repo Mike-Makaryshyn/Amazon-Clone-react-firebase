@@ -3,7 +3,7 @@ import "./CheckoutProduct.css";
 import { AiFillStar } from "react-icons/ai";
 import { useStateValue } from "../../StateProvider";
 
-const CheckoutProduct = ({ id, image, title, price, rating }) => {
+const CheckoutProduct = ({ id, image, title, price, rating, hideButton }) => {
    const [{ basket }, dispatch] = useStateValue();
 
    const removeFromBaket = () => {
@@ -32,7 +32,9 @@ const CheckoutProduct = ({ id, image, title, price, rating }) => {
                      </p>
                   ))}
             </div>
-            <button onClick={removeFromBaket}>Remove from Basket</button>
+            {!hideButton && (
+               <button onClick={removeFromBaket}>Remove from Basket</button>
+            )}
          </div>
       </div>
    );
